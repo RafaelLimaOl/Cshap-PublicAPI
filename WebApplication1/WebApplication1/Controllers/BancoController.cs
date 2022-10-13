@@ -18,25 +18,6 @@ namespace PublicApi.Controllers
             _bancoService = bancoService;
         }
 
-        [HttpGet("busca/todos")]
-        [ProducesResponseType(StatusCodes.Status200OK)]
-        [ProducesResponseType(StatusCodes.Status400BadRequest)]
-        [ProducesResponseType(StatusCodes.Status500InternalServerError)]
-
-        public async Task<IActionResult> BuscarTodos()
-        {
-            var response = await _bancoService.BuscarTodos();
-
-            if (response.CodigoHttp == HttpStatusCode.OK)
-            {
-                return Ok(response.DadosRetorno);
-            }
-            else
-            {
-                return StatusCode((int)response.CodigoHttp, response.ErroRetorno);
-            }
-        }
-
         [HttpGet("busca/{codigoBanco}")]
         [ProducesResponseType(StatusCodes.Status200OK)]
         [ProducesResponseType(StatusCodes.Status404NotFound)]

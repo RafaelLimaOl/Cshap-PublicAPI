@@ -23,11 +23,5 @@ namespace PublicApi.Services
             return _mapper.Map<ResponseGenerico<BancoResponse>>(banco);
         }
 
-        public async Task<ResponseGenerico<List<BancoResponse>>> BuscarTodos()
-        {
-            var bancos = await _brasilApi.BuscarTodosBancos();
-
-            return _mapper.Map<ResponseGenerico<List<BancoResponse>>>(bancos);
-        }
     }
 }
