@@ -1,0 +1,25 @@
+﻿using System.Text.Json.Serialization;
+
+namespace PublicApi.Dtos
+{
+
+    // Retorno dos Dados Personalizados da API:
+    public class EnderecoResponse
+    {
+
+        public string? Cep { get; set; }
+
+        public string? Estado { get; set; }
+
+        public string? Cidade { get; set; }
+
+        public string? Regiao { get; set; }
+
+        public string? Rua { get; set; }
+
+        // Método para Não retornar este campo:
+        [JsonIgnore]
+        public string? Servico { get; set; }
+
+    }
+}
