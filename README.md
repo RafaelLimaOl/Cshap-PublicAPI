@@ -40,7 +40,7 @@ $ git clone https://github.com/RafaelLimaOl/Csharp-CRUD.git
 <p>Você será redirecionado a um endereço com um localhost pré-determinado</p>
 
 <h1 align="center" id="licenca">License</h1>
-<a href="https://github.com/RafaelLimaOl/Csharp-PublicAPI/blob/main/LICENSE.md"><img src="https://img.shields.io/static/v1?label=LICENSE&message=Link &color=5A29E4&style=for-the-badge&logo=ghost"/></a>
+<a href="https://github.com/RafaelLimaOl/Cshap-PublicAPI/blob/main/LICENSE.md"><img src="https://img.shields.io/static/v1?label=LICENSE&message=Link &color=5A29E4&style=for-the-badge&logo=ghost"/></a>
 
 <h1 id="screen">Screen Shots</h1>
 
