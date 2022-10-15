@@ -39,5 +39,13 @@ $ git clone https://github.com/RafaelLimaOl/Csharp-CRUD.git
 ```
 <p>Você será redirecionado a um endereço com um localhost pré-determinado</p>
 
+<h1 align="center" id="licenca">License</h1>
+<a href="https://github.com/RafaelLimaOl/Csharp-PublicAPI/blob/main/LICENSE.md"><img src="https://img.shields.io/static/v1?label=LICENSE&message=Link &color=5A29E4&style=for-the-badge&logo=ghost"/></a>
+
+<h1 id="screen">Screen Shots</h1>
+
+![ScreenShot1](https://user-images.githubusercontent.com/115644899/195998377-b1c9a819-a562-4782-8e6a-aa3eef639adb.png)
+![ScreenShot2](https://user-images.githubusercontent.com/115644899/195998396-12ffd4f2-934c-4fa3-a691-019b857355fc.png)
+![ScreenShot3](https://user-images.githubusercontent.com/115644899/195998406-e59b4793-326c-446e-925f-3a8e0c579157.png)
 
 <h2 align="center" id="status">🛠Projeto NÃO Finalizado🛠</h2>
